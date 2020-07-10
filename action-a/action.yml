@@ -1,0 +1,17 @@
+name: "Jorge"
+description: "Esta es una descripción"
+author: "a@b.co"
+
+inputs:
+  MY_NAME:
+    description: "Describo lo uqe hago"
+    required: true
+    default: "Mundo"
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
+
+branding:
+  icon: "mic"
+  color: "purple"
